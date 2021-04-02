@@ -1,27 +1,27 @@
 public class CircleStaticVariable {
-    static int Count = 0; // static variable
+    static int Count = 0; // static variable has only one copy (unlike instance variables)
     public double x, y, r;
 
     public CircleStaticVariable(double x, double y, double r) {
         this.x = x;
         this.y = y;
         this.r = r;
-        Count++;
+
     }
 
     public CircleStaticVariable() {
         this(0.0, 0.0, 0.1);
-
+        Count++;
     }
 
     public CircleStaticVariable(CircleStaticVariable c) {
         this(c.x, c.y, c.r);
-
+        Count++;
     }
 
     public CircleStaticVariable(double r) {
         this(0.0, 0.0, r);
-
+        Count++;
     }
 
     public double circumference() {
@@ -34,9 +34,11 @@ public class CircleStaticVariable {
 
     public static void main(String[] args) {
         CircleStaticVariable c1 = new CircleStaticVariable();
+        System.out.println(" C" + c1.Count);
         CircleStaticVariable c2 = new CircleStaticVariable(5.0);
+        System.out.println(" C" + c2.Count);
         CircleStaticVariable c3 = new CircleStaticVariable(c1);
-        System.out.println(" C" + c1.Count + " C" + c2.Count + " C" + c3.Count);
+        System.out.println(" C" + c3.Count);
 
     }
 }
