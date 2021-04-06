@@ -9,9 +9,10 @@ class Derived extends Base {
     Derived(){
         System.out.println("Derived constructor called");
     }
-    void run(){
-        System.out.println("Derived run() is running");
-    }
+    //cant overide
+    // void run(){
+    //     System.out.println("Derived run() is running");
+    // }
 }
 
 class demo {
