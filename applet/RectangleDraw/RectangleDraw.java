@@ -1,6 +1,6 @@
 package com.applet.RectangleDraw;
 
-import java.applet.Applet;
+import java.applet.*;
 import java.awt.*;
 
 public class RectangleDraw {

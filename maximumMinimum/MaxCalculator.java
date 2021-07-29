@@ -8,9 +8,9 @@ public class MaxCalculator {
             int a = sc.nextInt();
             int b = sc.nextInt();
             if (a > b) {
-                System.out.printf("/nBetween %d and %d , greater is %d" + a, b, a);
+                System.out.printf("\n Between %d and %d , greater is %d" , a, b, a);
             } else {
-                System.out.printf("/nBetween %d and %d , greater is %d" + a, b, b);
+                System.out.printf("\n Between %d and %d , greater is %d" , a, b, b);
             }
         } finally {
             sc.close();

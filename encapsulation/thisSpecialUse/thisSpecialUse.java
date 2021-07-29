@@ -1,5 +1,3 @@
-package com.encapsulation.thisSpecialUse;
-
 
 class Circle {
     double x, y;

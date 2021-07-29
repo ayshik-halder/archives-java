@@ -15,7 +15,7 @@ class Persons {
 
     void printData() {
         System.out.println("Name : " + this.name);
-        dob.printDate();
+        // dob.printDate();
         System.out.println("Name : " + this.mobileNo);
     }
 

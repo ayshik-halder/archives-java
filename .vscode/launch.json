@@ -6,23 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Demo2",
-            "request": "launch",
-            "mainClass": "Demo2",
-            "projectName": "archives-java_76d97494"
-        },
-        {
-            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${/home/ayshik/Documents/GitRepos/archives-java/StaticVariable/CircleStaticVariable.java}"
+            "mainClass": "${file}"
         },
         {
             "type": "java",
-            "name": "Launch Calculator",
+            "name": "Launch Demo1",
             "request": "launch",
-            "mainClass": "CircleStaticVariable",
-            "projectName": "archives-java_76d97494"
+            "mainClass": "Demo1",
+            "projectName": "archives-java_81919c37"
         }
     ]
 }

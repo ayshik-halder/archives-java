@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "encapsulation/thisSpecialUse",
+        "DynamicBind/Demo1",
+        "exception"
+    ]
+}
